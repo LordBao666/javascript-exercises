@@ -1,3 +1,6 @@
+# Intro
+This is a repository I(LordBao666) cloned from <a href="https://github.com/TheOdinProject/javascript-exercises#readme">javascript-exercies<a/> of The Odin Project. Below is the content of the original README.md.
+
 # JavaScript Exercises
 
 These JavaScript exercises are intended to complement the JavaScript content on The Odin Project (TOP). They should only be done when instructed during the course of the curriculum.
