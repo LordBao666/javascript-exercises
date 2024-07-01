@@ -1,11 +1,8 @@
-/*remove eles from arr */
-const removeFromArray = function(arr,...eles) {
-    
-    for(const ele of eles){
-      arr=arr.filter(t=>t!==ele)
-    }
-    return arr
-};
+// A simpler, but more advanced way to do it is to use the 'filter' function,
+// which basically does what we did with the forEach above.
+const removeFromArray = function(array, ...args) {
+  return array.filter(val => !args.includes(val))
+}
 
 // Do not edit below this line  
 module.exports = removeFromArray;
